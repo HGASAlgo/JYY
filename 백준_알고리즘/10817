@@ -1,4 +1,4 @@
-#세 수 비교하기 
+#세 수 비교하기  
 import java.util.Scanner;
 
 public class Main {
