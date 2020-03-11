@@ -1,0 +1,37 @@
+#세 수 비교하기
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
+        int b = input.nextInt();
+        int c = input.nextInt();
+        
+        int mid;
+        
+        if (a>=b) {
+            if(a>=c) {
+                if(b>=c)
+                    mid = b;
+                else
+                    mid = c;
+            }
+            else
+                mid = a;
+        }
+        else {
+            if (b>=c) {
+                if (a>=c)
+                    mid = a;
+                else
+                    mid = c;
+            }
+            else
+                mid = b;
+        }
+        
+        System.out.println(mid);
+        
+    }
+}
