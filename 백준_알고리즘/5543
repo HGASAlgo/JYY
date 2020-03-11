@@ -1,3 +1,5 @@
+#햄버거 세트 가격
+
 import java.util.Scanner;
 
 public class Main {
