@@ -1,4 +1,4 @@
-//0 0이 입력될 때까 A+B
+//0 0이 입력될 때까지 A+B 
 
 import java.util.*;
 import java.io.*;
@@ -10,7 +10,7 @@ public class main {
 		StringTokenizer st;
 		
 		while(true) {
-			st = new StringTokenizer(br.readLine());
+			st = new StringTokenizer(br.readLine()); //반복문 안에서 쓰기
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
 			
