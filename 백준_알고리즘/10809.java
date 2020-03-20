@@ -12,9 +12,9 @@ public class Main {
 		String word = br.readLine();
 		
 		for(int i='a'; i<='z'; i++)
-            sb.append(word.indexOf(i)).append(" "); 
+            		sb.append(word.indexOf(i)).append(" "); 
 		System.out.println(sb);
-        br.close();
+        	br.close();
 	}
 }
 
