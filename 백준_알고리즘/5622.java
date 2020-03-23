@@ -7,10 +7,10 @@ import java.io.*;
 public class main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    String word = br.readLine();
+    		String word = br.readLine();
 		int sum=0; //총 시간을 더하는 변수 
 
-   for(int i = 0 ; i < word.length(); i++) {
+   		for(int i = 0 ; i < word.length(); i++) {
 			int num = word.charAt(i);
 			if(num <= 'C')
 				sum+=3;
