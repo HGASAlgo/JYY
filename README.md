@@ -4,7 +4,7 @@
 
 ✔10250 ACM 호텔
 
--2775 부녀회장이 될테야 
+✔2775 부녀회장이 될테야 
 
 -1011 Fly me to the Alpha Centauri 
 
